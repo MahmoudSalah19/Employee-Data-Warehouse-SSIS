@@ -1,0 +1,30 @@
+# Visual Studio / SSIS
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.dtsx.designer
+*.dtproj.user
+*.ispac
+*.cache
+*.log
+
+# Local data & secrets (do NOT commit)
+*.bak
+*.mdf
+*.ldf
+*.ndf
+*.env
+appsettings.local.json
+*.pfx
+
+# Source data (keep samples only, in /data/sample)
+data/raw/
+data/*.csv
+data/*.xlsx
+!data/sample/
+
+# OS
+.DS_Store
+Thumbs.db
